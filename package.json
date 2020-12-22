@@ -2,6 +2,10 @@
   "name": "my-app",
   "version": "0.1.2",
   "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/@gp0320/*"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
